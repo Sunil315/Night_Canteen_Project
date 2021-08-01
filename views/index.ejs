@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Canteen Home page</title>
+
+    <style>
+        #box {
+        display: flex;
+        width: 100%;
+
+      }
+      .item {
+        background:white ;
+        width: 500px;
+        height: 400px;
+        margin: 50px;;
+      }
+      #food_variety
+      {
+          text-align: center;
+          font-size: 70px;
+          margin-top: -10px;
+      }
+      .center {
+          position: relative;
+          top: -500px;
+          left: 0px;
+          padding-left: 50px;
+          background-color: transparent;
+      }
+
+      .item1{
+          color: black;
+          font-weight: bold;
+
+          font-size: 30px;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+
+
+      }
+
+      #Container2 {
+
+        margin: 0px auto;
+        width: fit-content;
+        height: fit-content;
+        padding-left: 300px;
+        border-radius: 30px;
+        margin-bottom: -130px;
+      }
+      .item2 {
+        background:transparent;
+        width: fit-content;
+        font-size: 60px;
+        font-weight: bold;
+        height: fit-content;
+        text-align:left;
+        z-index: 1;
+
+      }
+      .item3 {
+        background:transparent;
+        width: fit-content;
+        font-size: 30px;
+        height: fit-content;
+        text-align: left;
+        z-index: 1;
+        margin-top: -60px;
+
+      }
+      .item4
+      {
+          width: 200px;
+      }
+
+
+
+       .i202 {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+
+
+        }
+        .navi td {
+            font-size: 50px;
+        }
+        .Container
+        {
+            display: flexbox;
+            font-size: 300px;
+        }
+
+
+        body {
+           /* background-image: url("backgroung.jpg");
+             background-repeat: repeat-y;
+             */
+
+
+             background-color:black;
+             color:  white;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <table style="background-color:white; width: 100%; height: 100px ; position: fixed; margin-top: -8px; margin-left: -8px; z-index: 2;" id="navi" >
+            <tr  >
+                <td><img src="restorant_logo.png" alt="Logo" width="100px" height="100px ";/>  </td>
+                <td ><a href="/" class='i202'>Home</a></td>
+                <td><a href="/contactUs" class="i202">Contact</a></td>
+                <td><a href="/signup" class="i202">Signup</a></td>
+                <td><a href="/login" class="i202">Login</a></td>
+                <td><a href="/infoI" class="i202"><img src="user-circle-solid.svg" alt="logo" width="50px" height="50px"/></a></td>
+
+            </tr>
+          </table>
+        </div>
+
+    <div id="Container2" >
+        <img src="img1.jpg" alt="Food img" width="848px" height="1000px" style=" left: 300px; top: 150px; margin: 0px auto;"/>
+        <div class="center">
+            <p class="item2">Fresh and delicious</p>
+            <p class="item3">traditional food to delight you.</p>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Content -->
+    <div id='content' style="width: 100%; height: fit-content;margin-top: -70px; column-gap: 50px;">
+        <p id="content-01" style="font-weight: bold; font-size: 70px; font-family: 'Times New Roman', Times, serif;   margin-right: 80px;text-align: center; text-shadow: red;">We are here for the best, Best Food and services.</p>
+
+        <div id="par-1" style="display: flex; border: 1px solid black;margin-left: 100px;margin-bottom: 50px;">
+            <div id="content-03" style="border: 1px solid black;margin:auto auto;">
+                <p style="font-weight: bold; font-size: 30px; font-family: sans-serif;  border-bottom: 3px solid purple; ">We deliver fast and it's Free.</p>
+                <q style="font-size: 15px; font-family: sans-serif;  text-align: left; ">We know how Important your time are,that's why we are here.<br> We care Every second of your time </q>
+            </div>
+            <div id="content-02" style="margin-inline: 200px;  margin-bottom: 50px;">
+                <img src="delivery_boy.jpg" alt="delivery_boy"  width="500px"  height="500px"/>
+            </div>
+        </div>
+
+        <div id="par-2" style="display: flex; border: 1px solid black;margin-left: 100px;margin-bottom: 50px;">
+            <div id="content-02" style="margin-inline: 200px; border-bottom: 3px solid purple; ">
+                <img src="pexels-pietro-jeng-671956.jpg" alt="cheff cooking img"  width="500px"  height="500px"/>
+
+            </div>
+            <div id="content-03" style="border: 1px solid black; margin-right: 100px; margin-top: 80px;">
+                <p style="font-weight: bold; font-size: 30px; font-family: sans-serif;  border-bottom: 3px solid purple; ">Best Food experience with our world class cheffs.</p>
+                <q style="font-size: 15px; font-family: sans-serif;  text-align: left; ">Best Food Comes from the best people that's why we have best Cheff all way from world. </q>
+            </div>
+
+        </div>
+
+        <div id="par-3" style="display: flex; border: 1px solid black;margin-left: 100px;margin-bottom: 50px;">
+            <div id="content-03" style="border: 1px solid black;margin:auto auto;">
+                <p style="font-weight: bold; font-size: 30px; font-family: sans-serif;  border-bottom: 3px solid purple; ">Best service and Seriving.</p>
+                <q style="font-size: 15px; font-family: sans-serif;  text-align: left; ">We know how Important your time are,that's why we are here. We care Every second of your time </q>
+            </div>
+            <div id="content-02" style="margin-inline: 200px;  margin-bottom: 50px;">
+                <img src="pexels-edward-eyer-687824.jpg" alt="serivice_boy"  width="500px"  height="500px"/>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <hr/>
+
+
+      <p id="food_variety">We serve variety of food, The Food you like </p>
+      <div id='box'>
+        <div class='item'>
+
+            <img src="chinies.jpg" alt="chinies_food_img" width="405px" height="268px" style="padding-left: auto; ">
+            <p class="item1">Chinies</p>
+        </div>
+        <div class='item'>
+            <img src="indian.jpg" alt="indian_food_img" width="405px" height="268px" style="padding-left: auto; ">
+            <p class="item1">Indian</p>
+        </div>
+        <div class='item'>
+            <img src="italian.jpg" alt="italian_food_img" width="405px" height="268px" style="padding-left: auto; ">
+            <p class="item1">itilian</p>
+        </div>
+
+
+
+      </div>
+    <hr/>
+    <div id="posi">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1943.7250480791686!2d74.7955954640853!3d13.006984565782487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1snitk!5e0!3m2!1sen!2sin!4v1614949213757!5m2!1sen!2sin" width="100%" height="800" style="border:1ps solid red;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <hr/>
+
+
+
+    <div id="top-footer">
+         <div id="footer" style="display: flex;margin:50px 200px 20px 200px";>
+            <div class="i1" >
+                <address>Address:-<br>National Institute of Technology,<br>Karnataka Surathkal,<br>pincode:575025<br>Contact no:+91 8878126589<br>Mail us nitknc@gmail.com</address>
+            </div>
+            <div class="i2" style=" margin-left: 450px;">
+                <i>Important Links</i>
+                <ul>
+                    <li>
+                        <a href="/"style="color: white; text-decoration: none;" >Home</a>
+                    </li>
+                    <li>
+                       <a href="/login" style="color: white; text-decoration: none;">Login</a>
+                    </li>
+                    <li>
+                       <a href="/signup" style="color: white; text-decoration: none;">Signup</a>
+                    </li>
+                    <li>
+                        <a href="/contactUs" style="color: white; text-decoration: none;">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <table style="width: 100%; height: fit-content;">
+            <tr >
+                <td align="center" style="font-size: 20px;">Join us</td>
+                <td align="center"><a href="https://www.facebook.com/"> <img src="iconfinder_1_Facebook_colored_svg_copy_5296499.png" alt="facebook logo" width="50px" height="50px"/></a></td>
+                <td align="center"><a href="https://www.youtube.com/"> <img src="iconfinder_1_Youtube_colored_svg_5296521.png" alt="youtube logo" width="50px" height="50px"/></a></td>
+                <td align="center"> <a href="https://www.instagram.com/"> <img src="iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="instagram logo" width="50px" height="50px"/></a></td>
+                <td align="center"><a href="https://twitter.com/?lang=en"><img src="iconfinder_1_Twitter3_colored_svg_5296516.png" alt="twitter logo" width="50px" height="50px"/></a></td>
+                <td align="center"><a href="https://in.pinterest.com/"><img src="iconfinder_1_Pinterest_colored_svg_5296503.png" alt="pinterest logo" width="50px" height="50px"/></a></td>
+            </tr>
+
+        </table>
+        <p style="text-align: center;">Made with ♥ © 2021 NC, Inc. All rights are reserved</p>
+
+
+    </div>
+
+
+
+
+</body>
+</html>
